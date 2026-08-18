@@ -1,0 +1,57 @@
+.cities-page {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+.cities-list-column {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.city-card-loading {
+  color: var(--text-secondary);
+  font-size: 14px;
+  padding: 24px 26px;
+}
+
+.cities-detail-column {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+
+.cities-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Nested inside the already-boxed detail column, so the inner
+   TodayForecast / WeeklyForecast cards go flat instead of double-boxed. */
+.cities-detail-column .card {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.cities-detail-column .weekly-forecast {
+  padding-top: 18px;
+  border-top: 1px solid var(--divider);
+}
+
+@media (max-width: 980px) {
+  .cities-page {
+    grid-template-columns: 1fr;
+  }
+}

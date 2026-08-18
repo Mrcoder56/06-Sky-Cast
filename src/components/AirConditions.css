@@ -1,0 +1,28 @@
+.air-conditions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 40px;
+  margin-top: 22px;
+}
+
+.air-conditions-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.air-conditions-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.air-conditions-value {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .air-conditions-grid {
+    grid-template-columns: 1fr;
+  }
+}

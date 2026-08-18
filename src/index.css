@@ -1,0 +1,74 @@
+:root {
+  /* ---- SkyCast design tokens ---- */
+  --bg: #0a0e18;
+  --bg-elevated: #0d1220;
+  --card-bg: #1a2035;
+  --card-bg-soft: #171d31;
+  --sidebar-bg: #10152400;
+  --border: #262d44;
+  --divider: #232a3f;
+
+  --text-primary: #f5f6fa;
+  --text-secondary: #8b93aa;
+  --text-muted: #5c6482;
+
+  --accent-purple: #9d8cff;
+  --accent-blue: #4aa3ff;
+
+  --sun-start: #ffe066;
+  --sun-end: #ff8f1f;
+
+  --font-display: Georgia, 'Times New Roman', Times, serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

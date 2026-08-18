@@ -1,0 +1,14 @@
+.weather-icon-sun {
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--sun-start), var(--sun-end) 75%);
+  box-shadow: 0 0 24px rgba(255, 170, 40, 0.35);
+  flex-shrink: 0;
+}
+
+.weather-icon-emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  flex-shrink: 0;
+}

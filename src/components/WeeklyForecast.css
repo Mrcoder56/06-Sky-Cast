@@ -1,0 +1,39 @@
+.weekly-forecast-list {
+  margin-top: 12px;
+}
+
+.weekly-forecast-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--divider);
+  gap: 12px;
+}
+
+.weekly-forecast-row:last-child {
+  border-bottom: none;
+}
+
+.weekly-forecast-day {
+  width: 56px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.weekly-forecast-condition {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.weekly-forecast-temp {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
