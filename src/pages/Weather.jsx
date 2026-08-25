@@ -47,7 +47,7 @@ export default function Weather() {
       )
     }
   }, [])
-
+// we are using mingora as first displayed city
   useEffect(() => {
     loadWeather(city, units)
   }, [city, units, loadWeather])
