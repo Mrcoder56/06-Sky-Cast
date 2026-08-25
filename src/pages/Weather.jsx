@@ -19,11 +19,11 @@ import {
 } from '../utils/weatherHelpers'
 import './Weather.css'
 
-const DEFAULT_CITY = 'Swat'
+const DEFAULT_CITY = 'Mingora'
 
 export default function Weather() {
   const { units } = useUnits()
-  const [city, setCity] = useState(DEFAULT_CITY)
+  const [city, setCity] = useState("Mingora")
   const [current, setCurrent] = useState(null)
   const [forecast, setForecast] = useState(null)
   const [status, setStatus] = useState('loading') // loading | ready | error
