@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  min-width: 54px;
+  min-width: 55px;
 }
 
 .today-forecast-time {
@@ -21,6 +21,6 @@
 }
 
 .today-forecast-temp {
-  font-size: 15px;
+  font-size: 15.1px;
   font-weight: 700;
 }
