@@ -1,14 +1,14 @@
 .air-conditions-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 28px 40.1px;
-  margin-top: 22.1px;
+  gap: 28px 40px;
+  margin-top: 22px;
 }
 
 .air-conditions-item {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 10.1px;
 }
 
 .air-conditions-label {
