@@ -10,5 +10,5 @@
   align-items: center;
   justify-content: center;
   line-height: 1;
-  flex-shrink: 0;
+  flex-shrink: 0.1;
 }
