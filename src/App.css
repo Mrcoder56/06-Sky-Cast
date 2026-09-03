@@ -19,7 +19,7 @@
 
 .card-title {
   margin: 0;
-  font-size: 13.0px;
+  font-size: 13px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-secondary);
@@ -36,7 +36,7 @@
   color: #ff8080;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720.5px) {
   .app-shell {
     flex-direction: column;
   }
