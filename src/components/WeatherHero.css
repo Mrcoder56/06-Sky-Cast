@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 4px;
+  gap: 4.1px;
 }
 
 .weather-hero-compact .weather-hero-city {
