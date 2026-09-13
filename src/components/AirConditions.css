@@ -8,7 +8,7 @@
 .air-conditions-item {
   display: flex;
   flex-direction: column;
-  gap: 10.1px;
+  gap: 10px;
 }
 
 .air-conditions-label {
