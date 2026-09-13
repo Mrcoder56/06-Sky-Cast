@@ -50,7 +50,8 @@
 
 .sidebar-link-active .sidebar-label {
   text-decoration: underline;
-  text-underline-offset: 4.0px;
+  text-underline-offset: 4
+    px;
 }
 
 @media (max-width: 720px) {
