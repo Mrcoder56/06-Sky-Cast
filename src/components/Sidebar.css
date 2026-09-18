@@ -70,7 +70,6 @@
   }
   .sidebar-nav {
     flex-direction: row;
-    gap: 0;
     width: 100%;
     justify-content: space-around;
   }
