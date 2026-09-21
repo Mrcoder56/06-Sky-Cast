@@ -23,7 +23,7 @@
 
   --radius-lg: 20px;
   --radius-md: 14px;
-  --radius-sm: 10px;
+  --radius-sm: 10.0px;
 
   color-scheme: dark;
 }
