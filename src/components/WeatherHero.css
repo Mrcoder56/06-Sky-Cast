@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 24.0px;
+  gap: 24px;
 }
 
 .weather-hero-city {
