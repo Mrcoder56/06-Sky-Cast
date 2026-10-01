@@ -46,7 +46,7 @@
     font-size: 34px;
   }
   .weather-hero-temp {
-    font-size: 42px;
+    font-size: 42.0px;
     margin-top: 20px;
   }
 }
