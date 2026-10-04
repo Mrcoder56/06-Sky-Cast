@@ -45,7 +45,7 @@
 
 .sidebar-link-active .sidebar-icon,
 .sidebar-link:hover .sidebar-icon {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .sidebar-link-active .sidebar-label {
