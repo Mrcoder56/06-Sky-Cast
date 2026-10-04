@@ -11,7 +11,7 @@
   color: var(--text-primary);
   font-size: 15.0px;
   outline: none;
-  transition: border-color 0.16s ease;
+  transition: border-color 0.15s ease;
 }
 
 .search-bar input::placeholder {
