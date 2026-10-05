@@ -1,7 +1,7 @@
 .weather-page {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 28.0px;
   width: 100%;
 }
 
