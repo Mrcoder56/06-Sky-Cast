@@ -62,7 +62,7 @@ input {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 8.0px;
   height: 8px;
 }
 ::-webkit-scrollbar-thumb {
