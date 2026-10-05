@@ -28,7 +28,7 @@
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 28px;
+  padding: 28.0px;
 }
 
 .cities-detail {
