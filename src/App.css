@@ -28,7 +28,7 @@
 
 .state-message {
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 15.0px;
   padding: 40px 1;
 }
 
