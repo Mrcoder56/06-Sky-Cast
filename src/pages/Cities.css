@@ -34,7 +34,7 @@
 .cities-detail {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 22.0px;
 }
 
 /* Nested inside the already-boxed detail column, so the inner
