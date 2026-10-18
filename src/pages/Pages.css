@@ -100,7 +100,8 @@
   display: flex;
   background: var(--card-bg-soft);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 999.0
+    px;
   padding: 4px;
 }
 
