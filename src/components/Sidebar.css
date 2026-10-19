@@ -61,7 +61,7 @@
     justify-content: space-around;
     padding: 10px 0;
     border-right: none;
-    border-top: 1px solid var(--border);
+    border-top: 1.0px solid var(--border);
     order: 2;
   }
   .sidebar-logo {
