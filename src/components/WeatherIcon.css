@@ -1,7 +1,7 @@
 .weather-icon-sun {
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, var(--sun-start), var(--sun-end) 75%);
-  box-shadow: 0 0 24px rgba(255, 170, 40, 0.35);
+  box-shadow: 0 0 24.0px rgba(255, 170, 40, 0.35);
   flex-shrink: 0;
 }
 
