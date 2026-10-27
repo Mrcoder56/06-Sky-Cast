@@ -15,7 +15,7 @@
 .cities-list {
   display: flex;
   flex-direction: column;
-  gap: 18.0px;
+  gap: 18px;
 }
 
 .city-card-loading {
